@@ -52,8 +52,8 @@ public class Main {
     public static void main(String[] args) {
         //instancia e usa objeto que captura código-fonte de páginas Web
         CapturaRecursosWeb crw = new CapturaRecursosWeb();
-        crw.getListaRecursos().add("https://www.despachantedok.com.br/placa");
         crw.getListaRecursos().add("https://pt.wikipedia.org/wiki/Placas_de_identificação_de_veículos_no_Brasil");
+        crw.getListaRecursos().add("https://www.despachantedok.com.br/placa");
         crw.getListaRecursos().add("https://pt.wikipedia.org/wiki/Placas_de_identificação_de_veículos_no_Mercosul");
         ArrayList<String> listaCodigos = crw.carregarRecursos();
 
